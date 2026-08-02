@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Сборка пакета
+dist/
+build/
+*.egg-info/
+
+# IDE и операционные системы
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Датасеты, изображения и результаты работы
+/datasets/
+/data/
+/images/
+/output/
+/downloads/
+/logs/
+*.log
+*.part
+
+# Локальные данные и секреты
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+token*.json
+secrets*.json
